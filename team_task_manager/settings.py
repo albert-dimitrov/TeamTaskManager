@@ -40,7 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'team_task_manager.accounts.apps.AccountsConfig'
+    'team_task_manager.accounts.apps.AccountsConfig',
+    'team_task_manager.rooms.apps.RoomsConfig',
+    'team_task_manager.tasks.apps.TasksConfig'
 ]
 
 MIDDLEWARE = [
