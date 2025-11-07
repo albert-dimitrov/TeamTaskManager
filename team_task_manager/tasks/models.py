@@ -17,3 +17,5 @@ class Task(models.Model):
     points = models.IntegerField(default=0)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+
+# TODO make a is_completed field
